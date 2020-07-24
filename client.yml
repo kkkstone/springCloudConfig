@@ -3,13 +3,6 @@ server:
 spring:
   application:
     name: microservice-consumer-ccb
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    preferIpAddress: true
-
 feign:
   client:
     config:

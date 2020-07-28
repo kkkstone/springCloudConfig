@@ -9,9 +9,4 @@ feign:
       default:
         connect-timeout: 10000
         read-timeout: 10000
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.137.31:8761/eureka/
-  instance:
-    preferIpAddress: true       
+  
